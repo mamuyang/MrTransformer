@@ -19,7 +19,10 @@ by *Muyang Ma, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma an
 In this work, we aim to force the sequential recommendation (SR) model to discriminate the common and unique preferences in different sequences of interactions between users and the recommender system. To achieve it, we propose a transformer based SR model, named **M**ulti-p**r**eference **Transformer** (MrTransformer), that concatenates some special tokens in front of the sequence to represent multiple user preferences and makes sure they capture different aspects through a preference coverage mechanism. Then, we devise a *preference editing*-based self-supervised learning (SSL) mechanism for training MrTransformer that contains two main operations: *preference separation* and *preference recombination*. The former separates the common and unique user preferences for a given pair of sequences. The latter swaps the common preferences to obtain recombined user preferences for each sequence. Based on the preference separation and preference recombination operations, we define two types of SSL loss that require that the recombined preferences are similar to the original ones, and that the common preferences are close to each other.
 
 ## Running experiments
-This code is written in Tensorflow.
+This code is written in Tensorflow 1.14.0. \
+Python version = 3.6 \
+Model is trained on a GeForce GTX TitanX GPU.\
+
 
 ### Datasets
 We conduct experiments on five datasets in different domains:  
