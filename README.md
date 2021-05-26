@@ -21,7 +21,7 @@ In this work, we aim to force the sequential recommendation (SR) model to discri
 ## Running experiments
 This code is written in Tensorflow 1.14.0. \
 Python version = 3.6 \
-Model is trained on a GeForce GTX TitanX GPU.\
+Model is trained on a GeForce GTX TitanX GPU.
 
 
 ### Datasets
