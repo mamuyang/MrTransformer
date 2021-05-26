@@ -30,7 +30,7 @@ We conduct experiments on five datasets in different domains:
 + [ML-100k](https://grouplens.org/datasets/movielens/):This is a popular benchmark dataset for recommendation evaluation. We adopt a well-established version, ML-100k.   
 + [Yelp](https://www.yelp.com/dataset):This is a popular dataset for business recommendation.  
 
-### Training
+### Training instructions
 1. run “gen_data_beauty_faiss.py” to get beauty learning data (same as other datasets).
 The code “gen_data_beauty_faiss.py” is used to process data and generate the learning data, where the “util.py” and “vocab_p3.py” are auxiliary code.  
 2. run “run_beauty_pretrain.py” to pretrain the model of beauty data. (same as other datasets), where “modeling_coverage_learning_loss.py” is our model file, and “optimization.py” is our optimization file.  
