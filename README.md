@@ -32,7 +32,7 @@ We conduct experiments on five datasets in different domains:
 
 ### Training instructions
 
-We take ''Beauty'' dataset as example. It's same for other datasets.\
+We take ''Beauty'' dataset as example. It's same for other datasets.
 
 1. run “gen_data_beauty_faiss.py” to get beauty learning data (same as other datasets).
 The code “gen_data_beauty_faiss.py” is used to process data and generate the learning data, where the “util.py” and “vocab_p3.py” are auxiliary code.  
