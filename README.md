@@ -34,7 +34,7 @@ We conduct experiments on five datasets in different domains:
 
 We take ''Yelp'' dataset as example. It's same for other datasets.
 
-1. run “gen_data_yelp_faiss_p1.py” to get beauty learning data (same as other datasets), where “gen_data_yelp_faiss_p1.py” is used to process data and generate the learning data, and the “util.py” and “vocab.py” are auxiliary code.  
+1. run “gen_data_yelp_faiss_p1.py” to get yelp learning data (same as other datasets), where “gen_data_yelp_faiss_p1.py” is used to process data and generate the learning data, and the “util.py” and “vocab.py” are auxiliary code.  
 
 ```
 sbatch gen_data_yelp_p1.bash
@@ -46,7 +46,7 @@ sbatch gen_data_yelp_p1.bash
 sbatch run_yelp_learning_pretrain_p1.bash
 ```
 
-3. run “run_yelp_finetune.py” to finetune the model of beauty data by initializing the model parameters as the pretrain model (same as other datasets).
+3. run “run_yelp_finetune.py” to finetune the model of yelp data by initializing the model parameters as the pretrain model (same as other datasets).
 
 ```
 sbatch run_yelp_learning_finetune_p1.bash
