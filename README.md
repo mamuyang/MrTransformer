@@ -31,7 +31,7 @@ We conduct experiments on five datasets in different domains:
 + [Yelp](https://www.yelp.com/dataset):This is a popular dataset for business recommendation.  
 
 ### Training
-1. run “gen_data_beauty_faiss.py” to get beauty learning data and run “gen_data_ml-100k_faiss.py” to get ml-100k learning data. 
-The code “gen_data_beauty_faiss.py” and “gen_data_ml-100k_faiss.py” are used to process data and generate the learning data, where the “util.py” and “vocab_p3.py” are auxiliary code.  
+1. run “gen_data_beauty_faiss.py” to get beauty learning data (same as other datasets).
+The code “gen_data_beauty_faiss.py” is used to process data and generate the learning data, where the “util.py” and “vocab_p3.py” are auxiliary code.  
 2. run “run_beauty_pretrain.py” to pretrain the model of beauty data. (same as other datasets), where “modeling_coverage_learning_loss.py” is our model file, and “optimization.py” is our optimization file.  
-3. run “run_beauty_finetune.py” to finetune the model of beauty data by initializing the model parameters as the pretrain model. (same as other datasets).
+3. run “run_beauty_finetune.py” to finetune the model of beauty data by initializing the model parameters as the pretrain model (same as other datasets).
