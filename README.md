@@ -1,5 +1,12 @@
 # MrTransformer: Improving Transformer-based Sequential Recommendersthrough Preference Editing
-by Muyang Ma, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma and Maarten de Rijke
+by *Muyang Ma, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma and Maarten de Rijke*
+
+>>@inproceedings{ma2021MrTransformer,
+>>title={Improving Transformer-based Sequential Recommendersthrough Preference Editing},
+>>author={Ma, Muyang and Ren, Pengjie and Chen, Zhumin and Ren, Zhaochun and Liang, Huasheng and de Rijke, Maarten},
+>>booktitle={Arxiv 2021},
+>>year={2021}
+>>}
 
 Operating instructions
 
