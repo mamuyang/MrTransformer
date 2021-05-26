@@ -11,7 +11,7 @@ by *Muyang Ma, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma an
 
 ## Paper Summary
 
-![intro-figure1](./intro-figure1.png)\
+![intro_figure1](./intro_figure1.png)\
 *Schematic comparison of a traditional recommender system and MrTransformer (PE).*\
 ![new-framework](./new-framework.jpg)\
 *Overview of preference editing learning.*
