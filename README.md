@@ -11,10 +11,10 @@ by *Muyang Ma, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma an
 
 ## Paper Summary
 
-![task](./task.png)\
-*Task pipeline for conversational information seeking (CIS)*\
-![model](./model.png)\
-*Model pipeline for conversational information seeking (CIS)*
+![intro-figure1](./intro-figure1.png)\
+*Schematic comparison of a traditional recommender system and MrTransformer (PE).*\
+![new-framework](./new-framework.jpg)\
+*Overview of preference editing learning.*
 
 In this work, we aim to force the sequential recommendation (SR) model to discriminate the common and unique preferences in different sequences of interactions between users and the recommender system. To achieve it, we propose a transformer based SR model, named **M**ulti-p**r**eference **Transformer** (MrTransformer), that concatenates some special tokens in front of the sequence to represent multiple user preferences and makes sure they capture different aspects through a preference coverage mechanism. Then, we devise a *preference editing*-based self-supervised learning (SSL) mechanism for training MrTransformer that contains two main operations: *preference separation* and *preference recombination*. The former separates the common and unique user preferences for a given pair of sequences. The latter swaps the common preferences to obtain recombined user preferences for each sequence. Based on the preference separation and preference recombination operations, we define two types of SSL loss that require that the recombined preferences are similar to the original ones, and that the common preferences are close to each other.
 
